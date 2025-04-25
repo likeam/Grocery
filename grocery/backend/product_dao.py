@@ -47,7 +47,7 @@ def delete_product(connection, product_id):
 if __name__=='__main__':
     connection = get_sql_connection()
     insert_new_product(connection, {
-        'prodcut_name': 'brocolli',
+        'prodcut_name': 'carret',
         'uom_id': '1',
         'price_per_unit': '10'
     })
