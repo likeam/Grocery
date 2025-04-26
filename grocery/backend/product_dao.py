@@ -49,5 +49,5 @@ if __name__=='__main__':
     insert_new_product(connection, {
         'prodcut_name': 'carret',
         'uom_id': '1',
-        'price_per_unit': '10'
+        'price_per_unit': '110'
     })
